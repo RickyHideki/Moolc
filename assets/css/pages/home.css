@@ -42,3 +42,7 @@ main {
 
     text-shadow: 2px 5px black;
 }
+
+.button {
+    margin-top: .5rem;
+}

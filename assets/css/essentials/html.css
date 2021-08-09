@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(text-title.css);
 @import url(text-normal.css);
+@import url(button.css);
 
 :root {
     --font: 'Ubuntu Mono', monospace;
