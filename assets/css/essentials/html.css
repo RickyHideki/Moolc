@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url(reset.css);
+@import url(text-title.css);
+@import url(text-normal.css);
+
+:root {
+    --font: 'Ubuntu Mono', monospace;
+
+    --text-normal-size: 1.5rem;
+    --text-title-size: 2.5rem;
+
+    --text-normal-weight: 400;
+    --text-title-weight: 700;
+
+    --text-color: white;
+}
+
