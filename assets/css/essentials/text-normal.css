@@ -3,4 +3,6 @@
     font-family: var(--font);
     font-size: var(--text-normal-size);
     font-weight: var(--text-normal-weight);
+
+    text-decoration: none;
 }
