@@ -1,0 +1,8 @@
+.formula__box {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.formula__box:hover {
+    transition: .2s;
+    background-color: rgb(100, 100, 100);
+}

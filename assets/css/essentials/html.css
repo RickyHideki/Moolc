@@ -3,9 +3,11 @@
 @import url(text-title.css);
 @import url(text-normal.css);
 @import url(button.css);
+@import url(formula-box.css);
 
 @import url(header.css);
 @import url(background.css);
+
 
 :root {
     --font: 'Ubuntu Mono', monospace;
