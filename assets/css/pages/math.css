@@ -55,14 +55,16 @@
     main {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .formula__box {
         width: 250px;
+        height: 325px;
+        margin: 2rem;
     }
 
     .formula__box:last-child {
-        margin-bottom: 0;
+        margin: 2rem;
     }
 }
