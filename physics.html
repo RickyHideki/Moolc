@@ -26,13 +26,86 @@
             <h2 class="speed__title text-title"> Velocidade </h2>
 
             <label class="speed__delta-s-value text-normal" for="speed__delta-s-value"> Insira o espaço percorrido: </label>
-            <input class="speed__delta-s-value--inpute" id="speed__delta-s-value" autocomplete="off">
+            <input class="speed__delta-s-value--inpute" id="speed__delta-s-value" autocomplete="off" type="number">
 
-            <label class="speed__delta-t-value text-normal" for="speed__delta-t-value"> Insira o tempo gasto: </label>
-            <input class="speed__delta-t-value--inpute" id="speed__delta-t-value" autocomplete="off">
+            <label class="speed__delta-t__value text-normal" for="speed__delta-t-value"> Insira o tempo gasto: </label>
+            <input class="speed__delta-t__value--input" id="speed__delta-t-value" autocomplete="off" type="number">
 
             <button class="button button__answer text-normal" onclick="speedAnswer()"> <span>Calcular!</span> </button>
 
+        </section>
+
+        <section class="formula__box converter-kmh-ms">
+            <h2 class="converter-kmh-ms__title text-title">Converter Km/h para M/s e vice-versa.</h2>
+            
+            <label for="converter-kmh-ms__value" class="converter-kmh-ms__label text-normal">Escolha como deseja converter:</label>
+            <select name="" id="converter-kmh-ms__value" class="coverter-kmh-ms__values--select">
+                <option value="M/s" class="convert-kmh-ms__value">Km/h --> M/s</option>
+                <option value="Km/h" class="convert-kmh-ms__value">M/s --> Km/h</option>
+            </select>
+
+            <button class="button button__answer text-normal" onclick="converterKmhMs()"><span>Converter!</span></button>
+
+        </section>
+
+        <section class="formula__box avarage-speed">
+
+            <h2 class="avarage-speed__title text-title">Velocidade Média</h2>
+
+            <label for="avarage-speed__S-value--input" class="avarage-speed__label-S-Value text-normal">Insira o espaço final:</label>
+            <input type="number" class="avarage-speed__S-value--input" id="avarage-speed__S-value--input" autocomplete="off">
+
+            <label for="avarage-speed__So-value--input" class="avarage-speed__label-So-Value text-normal">Insira o espaço inicial:</label>
+            <input type="number" class="avarage-speed__So-value--input" id="avarage-speed__So-value--input" autocomplete="off">
+
+            <label for="avarage-speed__T-value--input" class="avarage-speed__label-T-Value text-normal">Insira o tempo final:</label>
+            <input type="number" class="avarage-speed__T-value--input" id="avarage-speed__T-value--input" autocomplete="off">
+
+            <label for="avarage-speed__To-value--input" class="avarage-speed__label-To-Value text-normal">Insira o tempo inicial:</label>
+            <input type="number" class="avarage-speed__To-value--input" id="avarage-speed__To-value--input" autocomplete="off">
+
+            <button class="button button__answer text-normal" onclick="avarageSpeed()"><span>Calcular!</span></button>
+        
+        </section>
+
+        <section class="formula__box momentum">
+
+            <h2 class="momentum__title text-title">Quantidade de Movimento</h2>
+
+            <label for="momentum__mass-value" class="momentum__mass-value text-normal">Insira a quantidade de Massa:</label>
+            <input type="number" class="momentum__mass-value--input" id="momentum__mass-value" autocomplete="off">
+
+            <label for="momentum__speed-value" class="momentum__speed-value text-normal">Insira a Velocidade:</label>
+            <input type="number" class="momentum__speed-value--input" id="momentum__speed-value" autocomplete="off">
+
+            <button class="button button__answer text-normal" onclick="momentum()"><span>Calcular!</span></button>
+        
+        </section>
+
+        <section class="formula__box period">
+            <h2 class="period__title text-title">Período de Oscilação</h2>
+
+            <label for="" class="period__L-value--label text-normal">Insira o comprimento do fio:</label>
+            <input type="number" class="period__L-value--input">
+
+            <label for="period__G" class="period__G-value--label text-normal">Insira a aceleração da gravidade:</label>
+            <input type="number" class="period__G-value--input" id="period__G" autocomplete="off">
+
+            <button class="button button__answer text-normal" onclick="period()"><span>Calcular!</span></button>
+        </section>
+
+        <section class="formula__box torque">
+
+            <h2 class="torque__title text-title">Torque</h2>
+
+            <label for="" class="torque__F-value--label text-normal">Insira a Força: </label>
+            <input type="text" class="torque__F-value--input">
+
+            <label for="" class="torque__D-value--label text-normal">Insira a distância: </label>
+            <input type="text" class="torque__D-value--input">
+
+            <button class="button button__answer text-normal" onclick="torque()"><span>Calcular!</span></button>
+        
         </section>
 
     </main>

@@ -16,8 +16,8 @@
         border: 2px solid white;
         border-radius: 8px;
     
-        width: 60vw;
-        height: 35vh;
+        width: 250px;
+        height: 350px;
         
         padding: .5rem 0;
     }
@@ -26,20 +26,24 @@
         margin-bottom: 1rem;
     }
 
-    section .text-title {
+    .formula__box .text-title {
         text-align: center;
         font-size: 2rem;
     }
     
-    section .text-normal {
+    .formula__box .text-normal {
         font-size: 1rem;
     }
     
-    section label {
+    .formula__box label {
         margin-top: .5rem;
     }
+
+    .formula__box select {
+        padding: 0 2rem;
+    }
     
-    .button {
+    .button__answer {
         margin-top: .5rem;
         padding: .5rem 1rem;
     
@@ -59,8 +63,6 @@
     }
     
     .formula__box {
-        width: 250px;
-        height: 325px;
         margin: 2rem;
     }
 

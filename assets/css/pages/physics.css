@@ -6,3 +6,7 @@
     transition: .2s;
     background-color: rgb(100, 100, 100);
 }
+
+.period__G-value--label {
+    text-align: center;
+}
