@@ -7,6 +7,10 @@
     background-color: rgb(100, 100, 100);
 }
 
+.converter-khm-ms__value {
+    text-align: center;
+}
+
 .period__G-value--label {
     text-align: center;
 }
